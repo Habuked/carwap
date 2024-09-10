@@ -1,0 +1,46 @@
+Para crear el proyecto, uso la consola de powershell como administrador
+busco el desktop del usuario, usado.
+ls para listar los archivos.
+cd.. para ir hacia atras
+cd Desktop para ingresar al escritorio.
+
+digito.
+npm create vite@latest
+Pongo el nombre del Project name:
+select framework: React
+select variant: JavaScript + SWC
+
+luego ingreso a la carpeta.
+cd NombredelProyecto
+dentro de la carpeta digito:
+npm i 
+Luego de instalarse todas las dependecias.
+code . 
+Esto para que el proyecto se abra en visual studio code
+
+en visual studio, abro terminal y ejecuto
+npm run dev
+
+Con esto carga el servicio y puedo visualizarlo.
+
+entrp a src, al archivo de App.jsx y lo dejo asi.
+
+import { useState } from 'react'
+
+import './App.css'
+
+function App() {
+
+  return (
+    <>
+      <div>
+        <h1>Login Carwap</h1>
+      </div>
+    </>
+  )
+}
+
+export default App
+
+
+** npm run dev --> para correr la App
